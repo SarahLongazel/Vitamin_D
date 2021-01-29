@@ -348,3 +348,15 @@
     display: none;
   }
   
+  /* Lists
+   ========================================================================== */
+
+/**
+ * Remove default list styles, margins and padding. *I liked this idea from Treehouse*
+ */
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

@@ -1,5 +1,10 @@
+.main-header,
+.content,
+.article {
+  display: flex;
+}
 
-header {
+
+h1 {
 color: orange;
-
 }
