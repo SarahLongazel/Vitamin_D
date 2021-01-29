@@ -1,10 +1,76 @@
+
+* {
+ box-sizing: border-box;   
+}
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+h1 {
+  color: #EA9010;
+}
+
+p {
+  color: #221F1B; 
+}
+
+a {
+  color: 29335C;
+  text-decoration: none;
+}
+
+li {
+    margin: 5px 10px 0 8px;
+}
+
+/* ================================= 
+Layout Styles
+==================================== */
+
 .main-header,
+.nav,
 .content,
 .article {
   display: flex;
 }
 
+.content {
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.vitamin,
+.vs,
+.mineral {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.vs {
+    padding: 10px;
+}
+/* ================================= 
+  Media Queries
+==================================== */
 
-h1 {
-color: orange;
+@media (min-width: 1000px) {
+.content,
+.nav {
+    flex-direction: row;
+  } 
+
+.main-header {
+    justify-content: space-between;
+  }
+
+  .vitamin,
+  .mineral {
+    flex-grow: 3;   
+  }
+  .vs {
+    flex-grow: 2;  
+  }
+
 }
