@@ -1,13 +1,20 @@
 
 * {
- box-sizing: border-box;   
+  box-sizing: border-box;
+   /* border: 2px solid green;   */
 }
+
 /* ================================= 
   Base Element Styles
 ==================================== */
 
 h1 {
-  color: #EA9010;
+  color: yellow;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 p {
@@ -34,22 +41,39 @@ Layout Styles
   display: flex;
 }
 
+.main-header {
+  background-image: url("../sunshine_photo2.jpg");
+  background-size: cover; 
+  opacity: .75;
+  
+}
+
 .content {
   flex-direction: column;
   margin: auto;
   width: 70%;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
 }
+
 .vitamin,
 .vs,
 .mineral {
   margin: auto;
   justify-content: center;
   align-items: center;
+  
 }
 .vs {
-    padding: 10px;
+    padding: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
+}
+.main-header {
+  background-image: url("../sunshine_photo2.jpg");
+  background-size: cover; 
+  opacity: .75;
+  
 }
 /* ================================= 
   Media Queries
@@ -67,10 +91,13 @@ Layout Styles
 
   .vitamin,
   .mineral {
-    flex-grow: 3;   
+    flex-grow: 3;  
+    text-align: center; 
   }
   .vs {
-    flex-grow: 2;  
+    flex-grow: 2;
+    text-align: center;  
   }
 
 }
+
