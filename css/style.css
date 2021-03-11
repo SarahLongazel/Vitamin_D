@@ -68,12 +68,12 @@ Layout Styles
 }
 
 .vitamin,
-.vs,
+.versus,
 .mineral {
   margin: 10px;
   justify-content: center;
   align-items: center;
-  background-color: #f1e8b8;
+  background-color: #a7bfdb;
   padding: 0 10px 0 10px;
   border-radius: 35px;
 }
