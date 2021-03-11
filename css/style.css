@@ -1,7 +1,6 @@
 
 * {
   box-sizing: border-box;
-   /* border: 2px solid green;   */
 }
 
 /* ================================= 
@@ -9,12 +8,18 @@
 ==================================== */
 
 h1 {
-  color: yellow;
+  color: #f1e8b8;
+  text-align: center;
+  margin-left: 40px;
+}
+                                                                                                                                                                                                                                        
+h3 {
   text-align: center;
 }
 
-h3 {
-  text-align: center;
+h5 {
+  font-size: 1.6rem;
+  
 }
 
 p {
@@ -27,7 +32,7 @@ a {
 }
 
 li {
-    margin: 5px 10px 0 8px;
+  margin: 5px 10px 0 8px;
 }
 
 /* ================================= 
@@ -37,17 +42,22 @@ Layout Styles
 .main-header,
 .nav,
 .content,
-.article {
+.article,
+.second-header {
   display: flex;
 }
 
 .main-header {
   background-image: url("../sunshine_photo2.jpg");
   background-size: cover; 
-  opacity: .75;
-  
+  /* opacity: .75; */
 }
 
+.second-header {
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+}
 .content {
   flex-direction: column;
   margin: auto;
@@ -60,21 +70,14 @@ Layout Styles
 .vitamin,
 .vs,
 .mineral {
-  margin: auto;
+  margin: 10px;
   justify-content: center;
   align-items: center;
-  
+  background-color: #f1e8b8;
+  padding: 0 10px 0 10px;
+  border-radius: 35px;
 }
-.vs {
-    padding: 0 20px 0 20px;
-    margin: 0 10px 0 10px;
-}
-.main-header {
-  background-image: url("../sunshine_photo2.jpg");
-  background-size: cover; 
-  opacity: .75;
-  
-}
+
 /* ================================= 
   Media Queries
 ==================================== */
@@ -82,21 +85,34 @@ Layout Styles
 @media (min-width: 1000px) {
 .content,
 .nav {
-    flex-direction: row;
+  flex-direction: row;
   } 
 
 .main-header {
-    justify-content: space-between;
+  justify-content: space-between;
   }
 
-  .vitamin,
-  .mineral {
-    flex-grow: 3;  
-    text-align: center; 
+h1 {
+  margin-left: 220px;
+ } 
+
+.vitamin,
+.mineral {
+  flex-grow: 3;  
   }
-  .vs {
-    flex-grow: 2;
-    text-align: center;  
+
+.versus {
+  flex-grow: 2;
+  padding: 30px 30px 0 20px;
+  margin: 0 20px 0 20px;
+  }
+
+.vitamin,
+.versus,
+.mineral {
+  text-align: center;
+  height: 60vh;
+  min-width: 50px; 
   }
 
 }
