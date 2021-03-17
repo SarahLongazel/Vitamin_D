@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">  <!--link to normalize.css that removes browser inconsistencies -->
+    <link rel="stylesheet" href="css/normalize.css"> <!--link to normalize.css that removes browser inconsistencies -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="main-header">
         <h1>Vitamin D Quiz</h1>
         <ul class="nav">
-            <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#">History</a></li>
           <li><a href="#">Sources</a></li>
           <li><a href="#">Quiz</a></li>
         </ul> 
     </header>
     <h2>Drag the correct answer into the clouds.</h2>
-
-    <div class="dropbox"></div>
-    <div class="answer_selections">
-
+      <p>What is Vitamin D?</p>
+    <div class="answer_dropbox"></div>
+    <div class="answer_selections">      
+          <p class="answer" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Draggable item')">element</p>
+          <p class="answer" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Draggable item')">mineral</dp>
+          <p class="answer" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Draggable item')">cholesterol</p>       
     </div>
    <script src="script.js"></script> 
 </body>
