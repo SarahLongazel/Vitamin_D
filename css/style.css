@@ -43,7 +43,7 @@ Layout Styles
 .content,
 .article,
 .second-header,
-.answer_selections,
+.answer-selections,
 .answer {
   display: flex;
 }
@@ -60,7 +60,7 @@ Layout Styles
 }
 
 .content,
-.answer_selections {
+.answer-selections {
   flex-direction: column;
   margin: auto;
   width: 70%;
@@ -73,6 +73,7 @@ Layout Styles
 .versus,
 .mineral,
 .how-works,
+.answer-selections,
 .answer {
   margin: 10px;
   justify-content: center;
@@ -82,14 +83,14 @@ Layout Styles
   border-radius: 35px;
 }
 
-.answer_dropbox {
+.answer-dropbox {
   background-image: url("../answer_dropbox.jpg");
   background-size: cover;
   width: 75vw;
   height: 20vh; 
 }
 
-.answer_selections {
+.answer-selections {
   border: 2px solid #3665A1;
   margin: 10px;
 }
@@ -115,13 +116,13 @@ Layout Styles
 
 @media (min-width: 1000px) {
 .content,
-.answer_selections,
+.answer-selections,
 .answer {
   flex-direction: row;
   } 
 
 .main-header,
-.answer_selections {
+.answer-selections {
   justify-content: space-between;
   }
 
@@ -141,12 +142,11 @@ h1 {
   }
 
 .how-works {
-  flex-grow: 10;
+  flex-grow: 2;
   }
 
-.answer_selections {
-  flex-grow: 3;
-  display: inline;
+.answer-selections {
+  flex-grow: 2;
   }  
 
 .vitamin,
