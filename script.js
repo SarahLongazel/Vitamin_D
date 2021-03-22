@@ -5,9 +5,9 @@
 //     event.preventDefault();
 // }
 
-const dragged;
-document.addEventListener("drag", function( event ) {
+let dragged = document.getElementsByClassName("answer");
 
+document.addEventListener("drag", function( event ) {
 }, false);
 
 document.addEventListener("dragstart", function(event) {
