@@ -26,7 +26,7 @@ p {
 }
 
 a {
-  color: 29335C;
+  color: #e2eaf3;
   text-decoration: none;
 }
 
@@ -44,13 +44,16 @@ Layout Styles
 .article,
 .second-header,
 .answer-selections,
-.answer {
+#answer1,
+#answer2,
+#answer3 {
   display: flex;
 }
 
 .main-header {
   background-image: url("../sunshine_photo2.jpg");
-  background-size: cover; 
+  background-size: cover;
+  justify-content: center; 
 }
 
 .second-header {
@@ -69,12 +72,22 @@ Layout Styles
   font-size: 1.2rem;
 }
 
+.quiz_content {
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
 .vitamin,
 .versus,
 .mineral,
 .how-works,
 .answer-selections,
-.answer {
+#answer1,
+#answer2,
+#answer3 {
   margin: 10px;
   justify-content: center;
   align-items: center;
@@ -83,10 +96,11 @@ Layout Styles
   border-radius: 35px;
 }
 
-.answer-dropbox {
+#answer-dropbox {
   background-image: url("../answer_dropbox.jpg");
   background-size: cover;
-  width: 75vw;
+  align-items: center;
+  width: 60vw;
   height: 20vh; 
 }
 
@@ -95,7 +109,9 @@ Layout Styles
   margin: 10px;
 }
 
-.answer {
+#answer1,
+#answer2,
+#answer3 {
   width: 30vw;
   height: 7vh;
 }
@@ -117,7 +133,9 @@ Layout Styles
 @media (min-width: 1000px) {
 .content,
 .answer-selections,
-.answer {
+#answer1,
+#answer2,
+#answer3 {
   flex-direction: row;
   } 
 
@@ -161,8 +179,9 @@ h1 {
 
 @media (min-width: 365px) and (max-width: 999px) {
   h1 {
-    margin-left: 100px;
+    justify-content: center;
      } 
+     
 }
 
 

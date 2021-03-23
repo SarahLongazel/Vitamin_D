@@ -1,24 +1,22 @@
-// script for drag and drop quiz
-// function onDrop(event) {
-//     const answer = event.dataTransfer.getData("text/plain");
-//     event.target.textContent = answer;
-//     event.preventDefault();
-// }
 
-let dragged = document.getElementsByClassName("answer");
+function dragstart_handler(event) {
+    event.dataTransfer.setData("text/plain", event.target.id);  
+}
 
-document.addEventListener("drag", function( event ) {
-}, false);
-
-document.addEventListener("dragstart", function(event) {
-    dragged = event.target;
-}, false);
-
-document.addEventListener("drop", function( event ) {
+function dragover_handler(event) {
     event.preventDefault();
-    
-    if (event.target.className == "answer-dropbox") {
-      dragged.parentNode.removeChild( dragged );
-      event.target.appendChild( dragged );
-    }
-}, false);
+    event.dataTransfer.dropEffect = "copy";
+}
+
+function drop_handler(event) {
+    event.preventDefault();
+    const data = event.dataTransfer.getData("text/plain");
+    event.target.appendChild(document.getElementById(data));
+
+}
+const correctAns = event.dataTransfer.getData("answer3");
+if (correctAns) {
+    alert("Correct answer!");
+} else {
+    alert("Incorrect, please try again.");
+}

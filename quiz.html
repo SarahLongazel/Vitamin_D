@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css"> <!-- link to normalize.css that removes browser inconsistencies -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- link to normalize.css that removes browser inconsistencies -->
+    <link rel="stylesheet" href="css/normalize.css"> 
 </head>
 <body>
     <header class="main-header">
@@ -18,14 +19,17 @@
           <li><a href="#">Quiz</a></li>
         </ul> 
     </header>
-    <h2>Drag the correct answer into the clouds.</h2>
-      <p>How is Vitamin D absorbed into the skin?</p>
-    <div class="answer-dropbox"></div>
+    <div class="quiz_content">
+    <h2>Drag the correct answer into the clouds below.</h2>
+      <p>What does the body use to absorb Vitamin D through the skin?</p>
+      
+    <div id="answer-dropbox" ondrop="drop_handler(event)" ondragover="dragover_handler(event)"></div>
     <div class="answer-selections">      
-          <p class="answer" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Draggable item')">calcium</p>
-          <p class="answer" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Draggable item')">minerals</p>
-          <p class="answer" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'Draggable item')">cholesterol</p>       
+          <p id="answer1" draggable="true" ondragstart="dragstart_handler(event)">calcium</p>
+          <p id="answer2" draggable="true" ondragstart="dragstart_handler(event)">minerals</p>
+          <p id="answer3" draggable="true" ondragstart="dragstart_handler(event)">cholesterol</p>       
     </div>
+</div>
    <script src="script.js"></script> 
 </body>
 </html>
