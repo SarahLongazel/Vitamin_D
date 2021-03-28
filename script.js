@@ -4,19 +4,20 @@ function dragstart_handler(event) {
 }
 
 function dragover_handler(event) {
-    event.preventDefault();
-    event.dataTransfer.dropEffect = "copy";
+    event.preventDefault(); 
 }
 
 function drop_handler(event) {
     event.preventDefault();
     const data = event.dataTransfer.getData("text/plain");
-    event.target.appendChild(document.getElementById(data));
+    answer = event.target.appendChild(document.getElementById(data));
+    if (data === "answer3") {
+        alert("Well done!");
+        
+    } else {
+        alert("Incorrect, reload page and try again.");
+        
+    }
+    
+}
 
-}
-const correctAns = event.dataTransfer.getData("answer3");
-if (correctAns) {
-    alert("Correct answer!");
-} else {
-    alert("Incorrect, please try again.");
-}
