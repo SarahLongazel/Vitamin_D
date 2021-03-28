@@ -51,7 +51,7 @@ Layout Styles
 }
 
 .main-header {
-  background-image: url("../sunshine_photo2.jpg");
+  background-image: url("../photos/sunshine_photo2.jpg");
   background-size: cover;
   justify-content: center; 
 }
@@ -97,7 +97,7 @@ Layout Styles
 }
 
 #answer-dropbox {
-  background-image: url("../answer_dropbox.jpg");
+  background-image: url("../photos/answer_dropbox.jpg");
   background-size: cover;
   align-items: center;
   width: 60vw;
