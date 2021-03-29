@@ -14,11 +14,12 @@
   <body>
     <header class="main-header">
         <h1>Vitamin D</h1>
-        <ul class="nav">
-          <li><a href="#">History</a></li>
-          <li><a href="#">Sources</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-        </ul> 
+        <div id="hiddenmenu" class="menu">
+        <a href="javascript:void(0)" class="closemenu" onclick="closeMenu()">&times;</a>
+          <a href="#">History</a>
+          <a href="quiz.html">Quiz</a>
+        </div> 
+    <button class="openmenu" onclick="openMenu()">&#9776;</button>    
     </header>
     
     <div class="second-header"><h3>The Basics of this stuff</h3></div>
@@ -46,7 +47,7 @@
       </article>
 
     </div>
-      
+    <script src="script.js"></script>    
   </body>
 </html>
 

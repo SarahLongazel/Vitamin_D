@@ -1,4 +1,13 @@
+//---------Toggle Side Menu------
+function openMenu() {
+    document.getElementById("hiddenmenu").style.width = "150px";
+}
 
+function closeMenu() {
+    document.getElementById("hiddenmenu").style.width = "0";
+}
+
+// --------Drag and Drop---------
 function dragstart_handler(event) {
     event.dataTransfer.setData("text/plain", event.target.id);  
 }

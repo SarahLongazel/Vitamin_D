@@ -37,9 +37,42 @@ li {
 /* ================================= 
 Layout Styles
 ==================================== */
+.menu {
+  height: 100px;
+  width: 0;
+  position: fixed;
+  z-index: 1; /*for overlay on slide */
+  background-color: #3665A1;
+  padding-top: 15px;
+  transition: .5s;
+  right: 0;
+  margin: 0;
+}
+
+.menu a {
+  padding: 8px;
+  font-size: 20px;
+  color: #e2eaf3;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu,
+.closemenu {
+  position: absolute;
+  font-size: 40px;
+  top: 0;
+}
+
+.openmenu {
+  font-size: 25px;
+  background-color: #3665A1;
+  color: #e2eaf3;
+  padding: 15px;
+  border: 2px solid #e2eaf3;
+}
 
 .main-header,
-.nav,
 .content,
 .article,
 .second-header,
@@ -53,7 +86,7 @@ Layout Styles
 .main-header {
   background-image: url("../photos/sunshine_photo2.jpg");
   background-size: cover;
-  justify-content: center; 
+  justify-content: space-between; 
 }
 
 .second-header {
@@ -176,7 +209,7 @@ h1 {
 
 @media (min-width: 365px) and (max-width: 999px) {
   h1 {
-    justify-content: center;
+    justify-content: space-between;
      } 
      
 }
