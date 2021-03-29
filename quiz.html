@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Vitamin D</title>
+<html>
+  <head>
+    <title>Vitamin D Quiz</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1">  <!--Sets viewport of page and gives the browser 
+      instructions on scale --> 
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">  <!--link to normalize.css that removes browser inconsistencies -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- link to normalize.css that removes browser inconsistencies -->
-    <link rel="stylesheet" href="css/normalize.css"> 
-</head>
-<body>
+  </head>
+  <body>
     <header class="main-header">
         <h1>Vitamin D Quiz</h1>
-        <ul class="nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">History</a></li>
-        </ul> 
+        <div id="hiddenmenu" class="menu">
+        <a href="javascript:void(0)" class="closemenu" onclick="closeMenu()">&times;</a>
+        <a href="index.html">Home</a>
+          <a href="#">History</a>
+          
+
+        </div> 
+    <button class="openmenu" onclick="openMenu()">&#9776;</button>    
     </header>
     <div class="quiz_content">
     <h2>Drag the correct answer into the clouds below.</h2>
