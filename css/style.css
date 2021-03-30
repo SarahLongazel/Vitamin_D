@@ -206,7 +206,7 @@ h1 {
 .versus,
 .mineral {
   text-align: center;
-  height: 40vh;
+  height: 50vh;
   min-width: 50px; 
   }
 
@@ -227,8 +227,8 @@ h1 {
   }
   .how-works {
     min-width: 500px;
-    /* align-content: center; */
   }
+
   .versus {
     padding-right: 50%;
     padding-left: 50%;
