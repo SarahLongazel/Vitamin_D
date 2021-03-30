@@ -44,6 +44,7 @@ Layout Styles
   width: 0;
   position: fixed;
   z-index: 1; /*for overlay on slide */
+  overflow-x: hidden;
   background-color: #3665A1;
   padding-top: 15px;
   transition: .5s;
@@ -64,9 +65,10 @@ Layout Styles
   position: absolute;
   font-size: 40px;
   top: 0;
+ 
 }
 
-.openmenu {
+ .openmenu {
   font-size: 25px;
   background-color: #3665A1;
   color: #e2eaf3;
@@ -210,7 +212,7 @@ h1 {
 
 }
 
-@media (min-width: 365px) and (max-width: 999px) {
+@media (min-width: 600px) and (max-width: 999px) {
   .main-header {
     justify-content: space-between;
      } 
@@ -219,7 +221,18 @@ h1 {
     margin-left: 70px;
     font-size: 2.5rem;
   }
-     
+  
+  .content {
+    flex-flow: row wrap;
+  }
+  .how-works {
+    min-width: 500px;
+    /* align-content: center; */
+  }
+  .versus {
+    padding-right: 50%;
+    padding-left: 50%;
+  }  
 }
 
 
