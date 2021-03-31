@@ -3,7 +3,8 @@ By Sarah Longazel
 
 The home page offers information on nutrients and how 
 vitamin D from sunlight is absorbed into the skin. The quiz
-link has a single question for the user to answer.
+link has a single question for the user to answer. This project was 
+tested with Mozilla Firefox, Chrome, and Android.
 
 ###CSS
 Both the home page and the quiz page are designed 
@@ -20,3 +21,7 @@ informing the user if the question was answered correctly
 Both media queries change how the user will read the 
 information needed to pass the quiz based on the
 width of the user's device.  
+
+@Media for largest screen aligns flex items for no scrolling
+@Media for tablet sizes keeps things aligned in column by 
+versus article and declaring min width for how-works article.
