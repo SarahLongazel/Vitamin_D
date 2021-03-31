@@ -12,29 +12,31 @@
     <link rel="stylesheet" href="css/normalize.css">  
     <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
     <header class="main-header">
-        <h1>Vitamin D Quiz</h1>
+      <h1>Vitamin D Quiz</h1>
         <div id="hiddenmenu" class="menu">
         <a href="javascript:void(0)" class="closemenu" onclick="closeMenu()">&times;</a>
         <a href="index.html">Home</a>
           <a href="#">History</a>
-          
-
         </div> 
-        <button class="openmenu" onclick="openMenu()">&#9776;</button>    
+      <button class="openmenu" onclick="openMenu()">&#9776;</button>    
     </header>
+
     <div class="quiz_content">
-    <h2>Drag the correct answer into the clouds below.</h2>
-      <p>What does the body use to create Vitamin D when the sun hits the skin?</p>
+      <h2>Drag the correct answer into the clouds below.</h2>
+        <p>What does the body use to create Vitamin D when the sun hits the skin?</p>
       
-    <div id="answer-dropbox" ondrop="drop_handler(event)" ondragover="dragover_handler(event)"></div>
-    <div class="answer-selections">      
+      <div id="answer-dropbox" ondrop="drop_handler(event)" ondragover="dragover_handler(event)"></div>
+      <div class="answer-selections">      
           <p id="answer1" draggable="true" ondragstart="dragstart_handler(event)">calcium</p>
           <p id="answer2" draggable="true" ondragstart="dragstart_handler(event)">minerals</p>
           <p id="answer3" draggable="true" ondragstart="dragstart_handler(event)">cholesterol</p>       
+      </div>
     </div>
-</div>
+
    <script src="script.js"></script> 
-</body>
+
+  </body>
 </html>
