@@ -139,9 +139,10 @@ Layout Styles
   width: 55vw;
   height: 20vh; 
   border-radius: 35px;
+  padding-top: 40px;
 }
 
-#answer-dropbox p {
+#answer-dropbox p:first-child {
   margin: auto;
 }
 
