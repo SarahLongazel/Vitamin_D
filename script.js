@@ -1,6 +1,6 @@
 //---------Toggle Side Menu------
 function openMenu() {
-    document.getElementById("hiddenmenu").style.width = "150px";
+    document.getElementById("hiddenmenu").style.width = "200px";
 }
 
 function closeMenu() {
