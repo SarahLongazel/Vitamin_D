@@ -39,7 +39,7 @@ li {
 Layout Styles
 ==================================== */
 .menu {
-  height: 100px;
+  height: 150px;
   width: 0;
   position: fixed;
   z-index: 1; /*for overlay on slide */
@@ -53,7 +53,7 @@ Layout Styles
 
 .menu a {
   padding: 8px;
-  font-size: 20px;
+  font-size: 25px;
   color: #e2eaf3;
   display: block;
   transition: 0.3s;
@@ -62,8 +62,11 @@ Layout Styles
 .menu,
 .closemenu {
   position: absolute;
-  font-size: 40px;
   top: 0; 
+}
+
+.closemenu {
+  right: 0;
 }
 
  .openmenu {
