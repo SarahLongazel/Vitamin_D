@@ -12,7 +12,6 @@ h1 {
   text-align: center;
   margin-left: 50px;
   font-family: Work Sans;
- 
 }
                                                                                                                                                                                                                                         
 h3 {
@@ -64,8 +63,7 @@ Layout Styles
 .closemenu {
   position: absolute;
   font-size: 40px;
-  top: 0;
- 
+  top: 0; 
 }
 
  .openmenu {
