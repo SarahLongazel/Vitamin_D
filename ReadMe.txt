@@ -18,10 +18,10 @@ when clicked
 informing the user if the question was answered correctly
 
 ###Media Queries
-Both media queries change how the user will read the 
-information needed to pass the quiz based on the
-width of the user's device.  
+Both media queries change the layout of the homepage based 
+on the width of the user's device. Information on this 
+page is needed to pass the quiz.   
 
-@Media for largest screen aligns flex items for no scrolling
-@Media for tablet sizes keeps things aligned in column by 
-versus article and declaring min width for how-works article.
+@Media for largest screen aligns flex items for no scrolling.
+@Media for tablet sizes keeps things aligned in a column 
+and moves the how-works article to the top.
