@@ -136,9 +136,13 @@ Layout Styles
 #answer-dropbox {
   background-image: url("../photos/answer_dropbox.jpg");
   background-size: cover;
-  align-items: center;
-  width: 60vw;
+  width: 55vw;
   height: 20vh; 
+  border-radius: 35px;
+}
+
+#answer-dropbox p {
+  margin: auto;
 }
 
 .answer-selections {
