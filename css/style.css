@@ -197,10 +197,14 @@ Layout Styles
   flex-direction: row;
   } 
 
-.content, 
+ 
 .quiz_content { 
   width: 800px;
-} 
+  } 
+
+.content {
+  width: 70%;
+  }
 
 .answer-selections {
   justify-content: space-between;
