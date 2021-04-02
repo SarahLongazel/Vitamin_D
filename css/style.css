@@ -197,7 +197,6 @@ h1 {
   }
 
 .versus {
-  padding: 30px 30px 0 20px;
   margin: 0 20px 0 20px;
   }
 
@@ -208,7 +207,6 @@ h1 {
   }
 
 .vitamin,
-.versus,
 .mineral {
   text-align: center;
   height: 50vh;
