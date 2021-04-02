@@ -13,6 +13,9 @@ h1 {
   font-family: Work Sans;
   filter: drop-shadow(10px 5px 4px #3665A1);
 }
+
+h2 {
+  color: #3665A1;
                                                                                                                                                                                                                                         
 h3 {
   text-align: center;
@@ -111,10 +114,6 @@ Layout Styles
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-}
-
-h2 {
-  color: #3665A1;
 }
 
 .vitamin,
