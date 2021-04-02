@@ -17,6 +17,7 @@ h1 {
 
 h2 {
   color: #3665A1;
+  text-align: center;
 }
                                                                                                                                                                                                                                         
 h3 {
@@ -109,6 +110,10 @@ Layout Styles
   align-items: center; 
 }
 
+.quiz_content p {
+  text-align: center;
+}
+
 .quiz_content {
   flex-direction: column;
   margin: auto;
@@ -148,7 +153,7 @@ Layout Styles
   height: 20vh; 
   border-radius: 35px;
   padding-top: 40px;
-  margin: 10px;
+  margin: 15px 0 20px 10px;
   box-shadow: 1px 3px 4px 3px #9faab8;
 }
 
@@ -159,7 +164,7 @@ Layout Styles
 
 .answer-selections {
   border: 2px solid #3665A1;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 #answer1,
@@ -191,6 +196,11 @@ Layout Styles
 #answer3 {
   flex-direction: row;
   } 
+
+.content, 
+.quiz_content { 
+  width: 800px;
+} 
 
 .answer-selections {
   justify-content: space-between;
@@ -229,8 +239,13 @@ h1 {
   h1 {
     font-size: 2.5rem;
   }
+
+  .content, 
+  .quiz_content { 
+  width: 70%;
+  } 
   
-.how-works {
+  .how-works {
     order: 1;
   }
 
