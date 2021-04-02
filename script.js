@@ -24,9 +24,10 @@ function drop_handler(event) {
         alert("Well done!");
         
     } else {
-        alert("Incorrect, reload page and try again.");
-        
-    }
+     if(confirm("Incorrect, click 'ok' to reload page and try again.")) {
+         window.location.reload();
+     }
     
+    }
 }
 
