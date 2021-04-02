@@ -155,6 +155,7 @@ h2 {
 
 #answer-dropbox p:first-child {
   margin: auto;
+  box-shadow: 1px 3px 4px 3px #3665A1;
 }
 
 .answer-selections {
