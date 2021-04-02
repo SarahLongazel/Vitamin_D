@@ -138,10 +138,11 @@ Layout Styles
 #answer-dropbox {
   background-image: url("../photos/answer_dropbox.jpg");
   background-size: cover;
-  width: 55vw;
+  width: 70%;
   height: 20vh; 
   border-radius: 35px;
   padding-top: 40px;
+  margin: 10px;
 }
 
 #answer-dropbox p:first-child {
