@@ -104,7 +104,7 @@ Layout Styles
 .answer-selections {
   flex-direction: column;
   margin: auto;
-  width: 70%;
+  width: 90%;
   justify-content: center;
   align-items: center; 
 }
@@ -112,7 +112,7 @@ Layout Styles
 .quiz_content {
   flex-direction: column;
   margin: auto;
-  width: 70%;
+  width: 90%;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
@@ -144,7 +144,7 @@ Layout Styles
 #answer-dropbox {
   background-image: url("../photos/answer_dropbox.jpg");
   background-size: cover;
-  width: 70%;
+  width: 90%;
   height: 20vh; 
   border-radius: 35px;
   padding-top: 40px;
