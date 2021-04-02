@@ -26,11 +26,6 @@ p {
   color: #221F1B; 
 }
 
-a {
-  color: #e2eaf3;
-  text-decoration: none;
-}
-
 /* ================================= 
 Layout Styles
 ==================================== */
@@ -53,6 +48,7 @@ Layout Styles
   color: #e2eaf3;
   display: block;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .menu,
