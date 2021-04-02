@@ -76,6 +76,7 @@ Layout Styles
   padding: 15px;
   border: 2px solid #e2eaf3;
   height: 70px;
+  border-radius: 25px;
 }
 
 .main-header,
