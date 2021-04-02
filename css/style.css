@@ -134,6 +134,12 @@ Layout Styles
   box-shadow: 1px 3px 4px 3px #9faab8;
 }
 
+.vitamin,
+.mineral,
+.how-works {
+  font-family: "Montserrat", sans-serif;
+}
+
 #answer-dropbox {
   background-image: url("../photos/answer_dropbox.jpg");
   background-size: cover;
