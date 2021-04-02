@@ -10,6 +10,7 @@
 h1 {
   color: #fdb813;
   margin: auto;
+  padding-left: 50px;
   font-family: Work Sans;
   filter: drop-shadow(10px 5px 4px #3665A1);
 }
