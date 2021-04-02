@@ -152,7 +152,7 @@ Layout Styles
   box-shadow: 1px 3px 4px 3px #9faab8;
 }
 
-#answer-dropbox p:first-child {
+#answer-dropbox p {
   margin: auto;
   box-shadow: 1px 3px 4px 3px #3665A1;
 }
