@@ -164,7 +164,6 @@ Layout Styles
 
 .answer-selections {
   border: 2px solid #3665A1;
-  /* margin: 10px; */
 }
 
 #answer1,
@@ -197,7 +196,6 @@ Layout Styles
   flex-direction: row;
   } 
 
- 
 .quiz_content { 
   width: 800px;
   } 
@@ -212,7 +210,7 @@ Layout Styles
 
 h1 {
   font-size: 3rem;
-   } 
+  } 
 
 .vitamin,
 .mineral {
