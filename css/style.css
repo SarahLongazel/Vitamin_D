@@ -67,7 +67,7 @@ Layout Styles
   right: 0;
 }
 
- .openmenu {
+.openmenu {
   font-size: 25px;
   background-color: #3665A1;
   color: #e2eaf3;
@@ -149,11 +149,12 @@ Layout Styles
 #answer-dropbox {
   background-image: url("../photos/answer_dropbox.jpg");
   background-size: cover;
-  width: 90%;
+  width: 60%;
   height: 20vh; 
   border-radius: 35px;
   padding-top: 40px;
   margin: 15px 0 20px 10px;
+  position: relative;
   box-shadow: 1px 3px 4px 3px #9faab8;
 }
 
