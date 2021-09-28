@@ -15,7 +15,7 @@ function floatCloud() {
     clearInterval(id);
     id = setInterval(frame, 30);
     function frame() {
-        if (pos == 400) {
+        if (pos == 200) {
             clearInterval(id);
         } else {
             pos++;
